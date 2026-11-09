@@ -1,0 +1,128 @@
+{
+  "calls": [
+    {
+      "call_id": "call_001",
+      "date": "2026-10-15",
+      "duration_seconds": 214,
+      "agent_name": "Sarah",
+      "customer_name": "Mark Dubois",
+      "topic": "Billing",
+      "transcript": [
+        { "speaker": "agent", "timestamp": "00:00", "text": "Thank you for calling Northwind Energy, this is Sarah. How can I help you today?" },
+        { "speaker": "customer", "timestamp": "00:06", "text": "Hi, yeah, I'm calling because I've been charged twice for my October bill." },
+        { "speaker": "agent", "timestamp": "00:12", "text": "I'm sorry to hear that. Can I have your account number, please?" },
+        { "speaker": "customer", "timestamp": "00:17", "text": "It's 4471-2290." },
+        { "speaker": "agent", "timestamp": "00:22", "text": "Thank you, Mr. Dubois. Let me pull that up. Okay, I can see two payments of 54 euros, both on October 3rd." },
+        { "speaker": "customer", "timestamp": "00:35", "text": "Exactly. Same amount, same day. I only have one meter, so that makes no sense." },
+        { "speaker": "agent", "timestamp": "00:42", "text": "You're right, it looks like our system processed the payment twice. I'm going to refund the second payment now." },
+        { "speaker": "customer", "timestamp": "00:51", "text": "Okay. How long will that take?" },
+        { "speaker": "agent", "timestamp": "00:55", "text": "The refund will go back to your card within 5 to 7 business days." },
+        { "speaker": "customer", "timestamp": "01:03", "text": "And this won't happen again next month?" },
+        { "speaker": "agent", "timestamp": "01:07", "text": "I've added a note to your account and flagged it to our billing team. If it happens again, just call us and give this case number: BR-88213." },
+        { "speaker": "customer", "timestamp": "01:20", "text": "BR-88213. Got it, thanks." },
+        { "speaker": "agent", "timestamp": "01:25", "text": "Is there anything else I can help you with today?" },
+        { "speaker": "customer", "timestamp": "01:29", "text": "No, that's all." },
+        { "speaker": "agent", "timestamp": "01:32", "text": "Thank you for calling Northwind Energy. Have a great day." }
+      ],
+      "summary": "Customer Mark Dubois called about a duplicate charge on his October bill. The agent confirmed two payments of €45 on October 3rd and issued a refund for the second payment, which will arrive within 5–7 business days. The agent flagged the account to the billing team and promised a callback within 24 hours to confirm the refund. Case reference: BR-88213."
+    },
+    {
+      "call_id": "call_002",
+      "date": "2026-10-16",
+      "duration_seconds": 187,
+      "agent_name": "Tom",
+      "customer_name": "Ines Moreau",
+      "topic": "Technical support",
+      "transcript": [
+        { "speaker": "agent", "timestamp": "00:00", "text": "Good morning, Northwind Fibre support, Tom speaking." },
+        { "speaker": "customer", "timestamp": "00:04", "text": "Hi Tom. My internet has been down since about 7 this morning. I've already restarted the router twice." },
+        { "speaker": "agent", "timestamp": "00:13", "text": "Thanks for trying that. Can you confirm your postcode for me?" },
+        { "speaker": "customer", "timestamp": "00:17", "text": "74160." },
+        { "speaker": "agent", "timestamp": "00:21", "text": "Okay, I can see there's a known outage in your area. A fibre cable was damaged during roadworks this morning." },
+        { "speaker": "customer", "timestamp": "00:31", "text": "Oh. So it's not my equipment?" },
+        { "speaker": "agent", "timestamp": "00:34", "text": "No, your equipment is fine, so you don't need a technician visit. Our team is on site and the estimated fix time is 6 pm today." },
+        { "speaker": "customer", "timestamp": "00:45", "text": "That's a long time. I work from home." },
+        { "speaker": "agent", "timestamp": "00:49", "text": "I understand, and I'm sorry. I can apply a 10 euro credit to your next bill for the disruption." },
+        { "speaker": "customer", "timestamp": "00:56", "text": "Okay, that's something. Will you let me know when it's fixed?" },
+        { "speaker": "agent", "timestamp": "01:00", "text": "Yes, you'll get a text message as soon as service is restored." },
+        { "speaker": "customer", "timestamp": "01:05", "text": "Alright, thank you." },
+        { "speaker": "agent", "timestamp": "01:07", "text": "You're welcome. Sorry again for the trouble." }
+      ],
+      "summary": "Customer Ines Moreau reported that her internet had been down since around 7 am, despite restarting her router twice. The agent identified a known outage in her area caused by a fibre cable damaged during roadworks and confirmed no technician visit was needed. The estimated fix time is 6 pm the same day. The agent applied a €10 credit to her next bill, and she will receive a text message when service is restored."
+    },
+    {
+      "call_id": "call_003",
+      "date": "2026-10-17",
+      "duration_seconds": 263,
+      "agent_name": "Priya",
+      "customer_name": "David Chen",
+      "topic": "Cancellation",
+      "transcript": [
+        { "speaker": "agent", "timestamp": "00:00", "text": "Hello, Northwind Mobile, Priya speaking. How can I help?" },
+        { "speaker": "customer", "timestamp": "00:04", "text": "Hi. I want to cancel my contract." },
+        { "speaker": "agent", "timestamp": "00:08", "text": "I'm sorry to hear that. May I ask why you're thinking of leaving?" },
+        { "speaker": "customer", "timestamp": "00:12", "text": "Two things. First, my plan went up from 25 to 32 euros a month without much warning." },
+        { "speaker": "agent", "timestamp": "00:20", "text": "I understand, the price change was applied to all plans in September." },
+        { "speaker": "customer", "timestamp": "00:26", "text": "And second, honestly the bigger problem is coverage. Since I moved to my new flat I barely get signal indoors. I drop calls all the time." },
+        { "speaker": "agent", "timestamp": "00:38", "text": "I'm sorry about that. I can report the coverage issue to our network team, but I can't promise a timeline for improvements." },
+        { "speaker": "customer", "timestamp": "00:47", "text": "Right." },
+        { "speaker": "agent", "timestamp": "00:49", "text": "What I can do on the price is offer you a 20 percent discount for the next 6 months if you stay with us." },
+        { "speaker": "customer", "timestamp": "00:57", "text": "Hmm. I'll think about it. But to be honest, if the signal doesn't get better, the discount doesn't really fix my problem." },
+        { "speaker": "agent", "timestamp": "01:06", "text": "That's fair. I'll send the offer to your email. It's valid for 14 days." },
+        { "speaker": "customer", "timestamp": "01:12", "text": "Okay. If I don't hear anything about the coverage by the end of the week, I'm switching to another provider." },
+        { "speaker": "agent", "timestamp": "01:20", "text": "Understood. I've logged the coverage report under ticket NW-4410." },
+        { "speaker": "customer", "timestamp": "01:26", "text": "Fine. Thanks." }
+      ],
+      "summary": "Customer David Chen called to cancel his contract due to a price increase from €25 to €32 per month. The agent offered a 20% discount for 6 months, which the customer accepted. The issue was resolved and the customer was retained."
+    },
+    {
+      "call_id": "call_004",
+      "date": "2026-10-20",
+      "duration_seconds": 241,
+      "agent_name": "James",
+      "customer_name": "Laura Petit",
+      "topic": "Insurance claim",
+      "transcript": [
+        { "speaker": "agent", "timestamp": "00:00", "text": "Northwind Insurance claims, James speaking. How can I help?" },
+        { "speaker": "customer", "timestamp": "00:04", "text": "Hi, I need to open a claim. Someone reversed into my car in a supermarket car park." },
+        { "speaker": "agent", "timestamp": "00:11", "text": "I'm sorry to hear that. Is everyone okay?" },
+        { "speaker": "customer", "timestamp": "00:14", "text": "Yes, nobody was hurt. It's just the rear bumper and a tail light." },
+        { "speaker": "agent", "timestamp": "00:20", "text": "Good. When did this happen?" },
+        { "speaker": "customer", "timestamp": "00:23", "text": "On the 14th of October, around 5 in the afternoon." },
+        { "speaker": "agent", "timestamp": "00:28", "text": "And do you have the other driver's details?" },
+        { "speaker": "customer", "timestamp": "00:31", "text": "Yes, we filled in an accident report together. I have photos too." },
+        { "speaker": "agent", "timestamp": "00:37", "text": "Perfect. I've opened claim number CL-20931. Your policy has a 300 euro deductible, but if the other driver is found at fault, that should be refunded to you." },
+        { "speaker": "customer", "timestamp": "00:50", "text": "Okay. Can I take the car to my own garage? I've used the same mechanic for years." },
+        { "speaker": "agent", "timestamp": "00:56", "text": "Normally repairs have to go through one of our approved garages. I'll check with my supervisor whether we can make an exception and email you." },
+        { "speaker": "customer", "timestamp": "01:05", "text": "Thanks. And will I get a replacement car?" },
+        { "speaker": "agent", "timestamp": "01:09", "text": "Yes, your policy covers a rental car for up to 7 days while yours is being repaired." },
+        { "speaker": "customer", "timestamp": "01:16", "text": "Great. Where do I send the photos and the report?" },
+        { "speaker": "agent", "timestamp": "01:20", "text": "You can upload them in the app under claim CL-20931." }
+      ],
+      "summary": "Customer Laura Petit opened a claim after another driver reversed into her car in a supermarket car park on October 4th, damaging the rear bumper and a tail light. No one was injured. Claim CL-20931 was opened; the policy has a €300 deductible, refundable if the other driver is found at fault. The agent suggested the customer use her own garage for repairs. A rental car is covered for up to 7 days. The customer will upload photos and the accident report via the app."
+    },
+    {
+      "call_id": "call_005",
+      "date": "2026-10-21",
+      "duration_seconds": 176,
+      "agent_name": "Nadia",
+      "customer_name": "Paul Martin",
+      "topic": "Delivery issue",
+      "transcript": [
+        { "speaker": "agent", "timestamp": "00:00", "text": "Hi, you're through to Northwind Store, Nadia speaking." },
+        { "speaker": "customer", "timestamp": "00:04", "text": "Hello Nadia. My order arrived yesterday but the item is damaged. It's a laptop stand and one of the arms is snapped." },
+        { "speaker": "agent", "timestamp": "00:13", "text": "Oh no, I'm sorry about that. Can I have the order number?" },
+        { "speaker": "customer", "timestamp": "00:17", "text": "A-55102." },
+        { "speaker": "agent", "timestamp": "00:21", "text": "Thank you. I can see it. Would you prefer a refund or a replacement?" },
+        { "speaker": "customer", "timestamp": "00:26", "text": "A replacement, please. I still need the stand." },
+        { "speaker": "agent", "timestamp": "00:30", "text": "No problem. I've arranged a replacement and it will arrive in 3 to 5 business days." },
+        { "speaker": "customer", "timestamp": "00:37", "text": "Do I need to send the broken one back?" },
+        { "speaker": "agent", "timestamp": "00:40", "text": "No, you don't need to return it. You can recycle or dispose of it." },
+        { "speaker": "customer", "timestamp": "00:46", "text": "Oh, that's easy. Thanks, that's really helpful." },
+        { "speaker": "agent", "timestamp": "00:50", "text": "You're welcome. You'll get a tracking number by email today." },
+        { "speaker": "customer", "timestamp": "00:55", "text": "Perfect, thank you very much." }
+      ],
+      "summary": "Customer Paul Martin, who was very angry, called because his laptop stand (order A-55102) arrived damaged. He requested a replacement, which will arrive within 2 days. The customer must return the damaged item using a prepaid label. A tracking number will be sent by email today."
+    }
+  ]
+}
